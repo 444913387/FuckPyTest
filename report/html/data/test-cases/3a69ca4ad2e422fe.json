@@ -1,0 +1,89 @@
+{
+  "uid" : "3a69ca4ad2e422fe",
+  "name" : "httpbin_put",
+  "fullName" : "testcase.TestHttpBin.TestHttp#test_http",
+  "historyId" : "334abb2c56fded233c6ad096f566c37b",
+  "time" : {
+    "start" : 1584188558892,
+    "stop" : 1584188559899,
+    "duration" : 1007
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: '../utils/allrue_log_template.txt'",
+  "statusTrace" : "self = <testcase.TestHttpBin.TestHttp object at 0x107db1198>\ncase_name = 'httpbin_put', url = 'https://www.httpbin.org/put', method = 'put'\nparams = {'key': 'value', 'key2': 'value2'}\ndata = {'key': 'value', 'key2': 'value2'}\nheaders = {'key': 'value', 'key2': 'value2'}, assert_type = 'status_code'\nassert_text = '200', case_desc = 'httpbin_put'\n\n    @pytest.mark.flaky(reruns=2)\n    @pytest.mark.parametrize(\"case_name, url, method, params, data, headers, assert_type, assert_text, case_desc\",\n                             argvalues=case_data)\n    def test_http(self, case_name, url, method, params, data, headers, assert_type, assert_text, case_desc):\n    \n        res = self.send_http_request(\n            url=url, method=method, params=params, data=data, headers=headers)\n    \n        self.log.info(self.return_curl(res.request))\n        self.log.info(res.json())\n        self.log.info(res.status_code)\n    \n    \n        if assert_type == 'status_code':\n            self.assert_util.assert_code(assert_text, res.status_code)\n        if assert_type == 'assert_in_body':\n            self.assert_util.assert_in_body(res.json(), assert_text)\n    \n    \n    \n    \n        # allure\n        allure.dynamic.title(case_name)\n        allure.dynamic.story(case_name)\n        allure.dynamic.feature(__name__)\n>       with open('../utils/allrue_log_template.txt', 'r') as f:\nE       FileNotFoundError: [Errno 2] No such file or directory: '../utils/allrue_log_template.txt'\n\ntestcase/TestHttpBin.py:39: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "httpbin_put"
+  }, {
+    "name" : "feature",
+    "value" : "testcase.TestHttpBin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestHttpBin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHttp"
+  }, {
+    "name" : "host",
+    "value" : "wangjianyudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "5609-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestHttpBin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_text",
+    "value" : "'200'"
+  }, {
+    "name" : "assert_type",
+    "value" : "'status_code'"
+  }, {
+    "name" : "case_desc",
+    "value" : "'httpbin_put'"
+  }, {
+    "name" : "case_name",
+    "value" : "'httpbin_put'"
+  }, {
+    "name" : "data",
+    "value" : "{'key': 'value', 'key2': 'value2'}"
+  }, {
+    "name" : "headers",
+    "value" : "{'key': 'value', 'key2': 'value2'}"
+  }, {
+    "name" : "method",
+    "value" : "'put'"
+  }, {
+    "name" : "params",
+    "value" : "{'key': 'value', 'key2': 'value2'}"
+  }, {
+    "name" : "url",
+    "value" : "'https://www.httpbin.org/put'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a69ca4ad2e422fe.json",
+  "parameterValues" : [ "'200'", "'status_code'", "'httpbin_put'", "'httpbin_put'", "{'key': 'value', 'key2': 'value2'}", "{'key': 'value', 'key2': 'value2'}", "'put'", "{'key': 'value', 'key2': 'value2'}", "'https://www.httpbin.org/put'" ]
+}
