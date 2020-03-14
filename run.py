@@ -1,7 +1,7 @@
 import pytest,time
 from utils.Toolbar import Toolbar
 
-import testcase.TestHttpBin
+
 
 
 if __name__ == "__main__":

@@ -7,13 +7,13 @@
       "name" : "httpbin_get",
       "children" : [ {
         "name" : "httpbin_get",
-        "uid" : "52ba2a6e7c727d49",
+        "uid" : "a29962e4956d1fc7",
         "parentUid" : "126a8f2bf99b40007caeaefcdf745644",
         "status" : "passed",
         "time" : {
-          "start" : 1584162101762,
-          "stop" : 1584162103108,
-          "duration" : 1346
+          "start" : 1584188679001,
+          "stop" : 1584188681487,
+          "duration" : 2486
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "httpbin_post",
       "children" : [ {
         "name" : "httpbin_post",
-        "uid" : "fc28e5e5f0a9436d",
+        "uid" : "141c59634ce62654",
         "parentUid" : "c16e1389a6e2d0fcb602e82c3ab9b002",
         "status" : "passed",
         "time" : {
-          "start" : 1584162103118,
-          "stop" : 1584162103397,
-          "duration" : 279
+          "start" : 1584188681497,
+          "stop" : 1584188681778,
+          "duration" : 281
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "httpbin_put",
       "children" : [ {
         "name" : "httpbin_put",
-        "uid" : "c2899cf8efae1347",
+        "uid" : "5711ff3de70d0d63",
         "parentUid" : "8f43e520b4fbc9fc0fdee21909af445a",
         "status" : "passed",
         "time" : {
-          "start" : 1584162103407,
-          "stop" : 1584162104780,
-          "duration" : 1373
+          "start" : 1584188681789,
+          "stop" : 1584188682092,
+          "duration" : 303
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +58,13 @@
       "name" : "httpbin_patch",
       "children" : [ {
         "name" : "httpbin_patch",
-        "uid" : "2080786b3c0985cd",
+        "uid" : "cd0348423f240123",
         "parentUid" : "e13142ad41081df36735e28e9594d56a",
         "status" : "passed",
         "time" : {
-          "start" : 1584162104790,
-          "stop" : 1584162105101,
-          "duration" : 311
+          "start" : 1584188682103,
+          "stop" : 1584188682403,
+          "duration" : 300
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +75,13 @@
       "name" : "httpbin_delete",
       "children" : [ {
         "name" : "httpbin_delete",
-        "uid" : "dca99789ba422dc7",
+        "uid" : "15c787ee5c767bcd",
         "parentUid" : "bf6571d595e4a107cd54e8f4f0a04a75",
         "status" : "passed",
         "time" : {
-          "start" : 1584162105111,
-          "stop" : 1584162105384,
-          "duration" : 273
+          "start" : 1584188682411,
+          "stop" : 1584188683672,
+          "duration" : 1261
         },
         "flaky" : false,
         "newFailed" : false,

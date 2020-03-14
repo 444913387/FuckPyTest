@@ -2,5 +2,5 @@
 "","testcase.TestHttpBin","httpbin_patch","0","0","1","0","0"
 "","testcase.TestHttpBin","httpbin_put","0","0","1","0","0"
 "","testcase.TestHttpBin","httpbin_get","0","0","1","0","0"
-"","testcase.TestHttpBin","httpbin_post","0","0","1","0","0"
 "","testcase.TestHttpBin","httpbin_delete","0","0","1","0","0"
+"","testcase.TestHttpBin","httpbin_post","0","0","1","0","0"

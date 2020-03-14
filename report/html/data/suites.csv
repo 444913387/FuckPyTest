@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Mar 14 13:01:44 CST 2020","Sat Mar 14 13:01:45 CST 2020","311","testcase","TestHttpBin","TestHttp","","","httpbin_patch","<div class=""environment long-line"">
+"passed","Sat Mar 14 20:24:42 CST 2020","Sat Mar 14 20:24:42 CST 2020","300","testcase","TestHttpBin","TestHttp","","","httpbin_patch","<div class=""environment long-line"">
             <span class=""environment__key"">请求(curl)</span>:
             <br/>
                 <span>curl -X PATCH -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 21' -H 'Content-Type: application/x-www-form-urlencoded' -H 'User-Agent: python-requests/2.22.0' -H 'key: value' -H 'key2: value2' -d 'key=value&key2=value2' 'https://www.httpbin.org/patch?key=value&key2=value2' -v</span>
@@ -27,7 +27,7 @@
         ""Key"": ""value"",
         ""Key2"": ""value2"",
         ""User-Agent"": ""python-requests/2.22.0"",
-        ""X-Amzn-Trace-Id"": ""Root=1-5e6c6538-f4d8407a757c8b50a3f5def6""
+        ""X-Amzn-Trace-Id"": ""Root=1-5e6ccd0a-5967e37b1404f4efe595c247""
     },
     ""json"": null,
     ""origin"": ""60.194.241.231"",
@@ -45,7 +45,7 @@
         <div class=""environment long-line"">
             <span class=""environment__key"">预期结果</span>:<br/>
                 <span>200</span></div>"
-"passed","Sat Mar 14 13:01:43 CST 2020","Sat Mar 14 13:01:44 CST 2020","1373","testcase","TestHttpBin","TestHttp","","","httpbin_put","<div class=""environment long-line"">
+"passed","Sat Mar 14 20:24:41 CST 2020","Sat Mar 14 20:24:42 CST 2020","303","testcase","TestHttpBin","TestHttp","","","httpbin_put","<div class=""environment long-line"">
             <span class=""environment__key"">请求(curl)</span>:
             <br/>
                 <span>curl -X PUT -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 21' -H 'Content-Type: application/x-www-form-urlencoded' -H 'User-Agent: python-requests/2.22.0' -H 'key: value' -H 'key2: value2' -d 'key=value&key2=value2' 'https://www.httpbin.org/put?key=value&key2=value2' -v</span>
@@ -73,7 +73,7 @@
         ""Key"": ""value"",
         ""Key2"": ""value2"",
         ""User-Agent"": ""python-requests/2.22.0"",
-        ""X-Amzn-Trace-Id"": ""Root=1-5e6c6537-8c8a6de886da858445e36f04""
+        ""X-Amzn-Trace-Id"": ""Root=1-5e6ccd09-4b5b1913bb04c9a47d933c69""
     },
     ""json"": null,
     ""origin"": ""60.194.241.231"",
@@ -91,7 +91,7 @@
         <div class=""environment long-line"">
             <span class=""environment__key"">预期结果</span>:<br/>
                 <span>200</span></div>"
-"passed","Sat Mar 14 13:01:41 CST 2020","Sat Mar 14 13:01:43 CST 2020","1346","testcase","TestHttpBin","TestHttp","","","httpbin_get","<div class=""environment long-line"">
+"passed","Sat Mar 14 20:24:39 CST 2020","Sat Mar 14 20:24:41 CST 2020","2486","testcase","TestHttpBin","TestHttp","","","httpbin_get","<div class=""environment long-line"">
             <span class=""environment__key"">请求(curl)</span>:
             <br/>
                 <span>curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 21' -H 'Content-Type: application/x-www-form-urlencoded' -H 'User-Agent: python-requests/2.22.0' -H 'key: value' -H 'key2: value2' -d 'key=value&key2=value2' 'https://www.httpbin.org/get?key=value&key2=value2' -v</span>
@@ -113,7 +113,7 @@
         ""Key"": ""value"",
         ""Key2"": ""value2"",
         ""User-Agent"": ""python-requests/2.22.0"",
-        ""X-Amzn-Trace-Id"": ""Root=1-5e6c6536-b936828066cc69ea64de5902""
+        ""X-Amzn-Trace-Id"": ""Root=1-5e6ccd09-5b754470d58f903aad159656""
     },
     ""origin"": ""60.194.241.231"",
     ""url"": ""https://www.httpbin.org/get?key=value&key2=value2""
@@ -130,53 +130,7 @@
         <div class=""environment long-line"">
             <span class=""environment__key"">预期结果</span>:<br/>
                 <span>200</span></div>"
-"passed","Sat Mar 14 13:01:43 CST 2020","Sat Mar 14 13:01:43 CST 2020","279","testcase","TestHttpBin","TestHttp","","","httpbin_post","<div class=""environment long-line"">
-            <span class=""environment__key"">请求(curl)</span>:
-            <br/>
-                <span>curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 21' -H 'Content-Type: application/x-www-form-urlencoded' -H 'User-Agent: python-requests/2.22.0' -H 'key: value' -H 'key2: value2' -d 'key=value&key2=value2' 'https://www.httpbin.org/post?key=value&key2=value2' -v</span>
-        </div>
-        <div class=""environment long-line"">
-            <span class=""environment__key"">响应</span>:
-            <br/>
-                <span>{
-    ""args"": {
-        ""key"": ""value"",
-        ""key2"": ""value2""
-    },
-    ""data"": """",
-    ""files"": {},
-    ""form"": {
-        ""key"": ""value"",
-        ""key2"": ""value2""
-    },
-    ""headers"": {
-        ""Accept"": ""*/*"",
-        ""Accept-Encoding"": ""gzip, deflate"",
-        ""Content-Length"": ""21"",
-        ""Content-Type"": ""application/x-www-form-urlencoded"",
-        ""Host"": ""www.httpbin.org"",
-        ""Key"": ""value"",
-        ""Key2"": ""value2"",
-        ""User-Agent"": ""python-requests/2.22.0"",
-        ""X-Amzn-Trace-Id"": ""Root=1-5e6c6537-9d3265b66bc1229660db3f84""
-    },
-    ""json"": null,
-    ""origin"": ""60.194.241.231"",
-    ""url"": ""https://www.httpbin.org/post?key=value&key2=value2""
-}</span>
-        </div>
-        <div class=""environment long-line"">
-            <span class=""environment__key"">状态码</span>:<br/>
-                <span>200</span>
-        </div>
-        <div class=""environment long-line"">
-            <span class=""environment__key"">断言类型</span>:<br/>
-                <span>assert_in_body</span>
-        </div>
-        <div class=""environment long-line"">
-            <span class=""environment__key"">预期结果</span>:<br/>
-                <span>value2</span></div>"
-"passed","Sat Mar 14 13:01:45 CST 2020","Sat Mar 14 13:01:45 CST 2020","273","testcase","TestHttpBin","TestHttp","","","httpbin_delete","<div class=""environment long-line"">
+"passed","Sat Mar 14 20:24:42 CST 2020","Sat Mar 14 20:24:43 CST 2020","1261","testcase","TestHttpBin","TestHttp","","","httpbin_delete","<div class=""environment long-line"">
             <span class=""environment__key"">请求(curl)</span>:
             <br/>
                 <span>curl -X DELETE -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 21' -H 'Content-Type: application/x-www-form-urlencoded' -H 'User-Agent: python-requests/2.22.0' -H 'key: value' -H 'key2: value2' -d 'key=value&key2=value2' 'https://www.httpbin.org/delete?key=value&key2=value2' -v</span>
@@ -204,7 +158,7 @@
         ""Key"": ""value"",
         ""Key2"": ""value2"",
         ""User-Agent"": ""python-requests/2.22.0"",
-        ""X-Amzn-Trace-Id"": ""Root=1-5e6c6539-aa51f23e380aedf478cbe6a4""
+        ""X-Amzn-Trace-Id"": ""Root=1-5e6ccd0a-4197aed9e487bb4bbb9efc6a""
     },
     ""json"": null,
     ""origin"": ""60.194.241.231"",
@@ -222,3 +176,49 @@
         <div class=""environment long-line"">
             <span class=""environment__key"">预期结果</span>:<br/>
                 <span>200</span></div>"
+"passed","Sat Mar 14 20:24:41 CST 2020","Sat Mar 14 20:24:41 CST 2020","281","testcase","TestHttpBin","TestHttp","","","httpbin_post","<div class=""environment long-line"">
+            <span class=""environment__key"">请求(curl)</span>:
+            <br/>
+                <span>curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 21' -H 'Content-Type: application/x-www-form-urlencoded' -H 'User-Agent: python-requests/2.22.0' -H 'key: value' -H 'key2: value2' -d 'key=value&key2=value2' 'https://www.httpbin.org/post?key=value&key2=value2' -v</span>
+        </div>
+        <div class=""environment long-line"">
+            <span class=""environment__key"">响应</span>:
+            <br/>
+                <span>{
+    ""args"": {
+        ""key"": ""value"",
+        ""key2"": ""value2""
+    },
+    ""data"": """",
+    ""files"": {},
+    ""form"": {
+        ""key"": ""value"",
+        ""key2"": ""value2""
+    },
+    ""headers"": {
+        ""Accept"": ""*/*"",
+        ""Accept-Encoding"": ""gzip, deflate"",
+        ""Content-Length"": ""21"",
+        ""Content-Type"": ""application/x-www-form-urlencoded"",
+        ""Host"": ""www.httpbin.org"",
+        ""Key"": ""value"",
+        ""Key2"": ""value2"",
+        ""User-Agent"": ""python-requests/2.22.0"",
+        ""X-Amzn-Trace-Id"": ""Root=1-5e6ccd09-1324f17b04771b08d3973ac5""
+    },
+    ""json"": null,
+    ""origin"": ""60.194.241.231"",
+    ""url"": ""https://www.httpbin.org/post?key=value&key2=value2""
+}</span>
+        </div>
+        <div class=""environment long-line"">
+            <span class=""environment__key"">状态码</span>:<br/>
+                <span>200</span>
+        </div>
+        <div class=""environment long-line"">
+            <span class=""environment__key"">断言类型</span>:<br/>
+                <span>assert_in_body</span>
+        </div>
+        <div class=""environment long-line"">
+            <span class=""environment__key"">预期结果</span>:<br/>
+                <span>value2</span></div>"

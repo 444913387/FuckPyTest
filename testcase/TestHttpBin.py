@@ -36,7 +36,7 @@ class TestHttp(HttpSender):
         allure.dynamic.title(case_name)
         allure.dynamic.story(case_name)
         allure.dynamic.feature(__name__)
-        with open('../utils/allrue_log_template.txt', 'r') as f:
+        with open('./utils/allrue_log_template.txt', 'r') as f:
             allure.dynamic.description(
 
                 f.read().format(self.return_curl(res.request), json.dumps(res.json(), indent=4), str(res.status_code),
