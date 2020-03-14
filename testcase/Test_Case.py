@@ -20,4 +20,4 @@ class TestClass():
         print('testb')
 
 if __name__ == '__main__':
-    pytest.main('-s','test_case.py')
+    pytest.main('-s','Test_Case.py')
