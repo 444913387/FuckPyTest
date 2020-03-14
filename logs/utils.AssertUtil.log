@@ -1,0 +1,45 @@
+2020-03-14 11:51:15,539 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:51:15,939 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c54b3-c86c07666914e5e422477cf0"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 11:51:16,245 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:51:16,561 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:51:16,980 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:54:37,854 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:54:38,160 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c557d-7a69a14035e499a06d2e0a80"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 11:54:38,459 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:54:38,768 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:54:39,081 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:56:10,642 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:56:11,169 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c55da-c513cb9062088cbcdb1e1dd8"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 11:56:12,803 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:56:13,314 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 11:56:13,671 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:54:51,298 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:54:51,554 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c639b-f058463d0a6790a96601bce5"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 12:54:51,877 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:54:52,229 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:54:52,581 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:57:59,233 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:57:59,536 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c6457-a369e0c017ab8690b6815bd0"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 12:57:59,814 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:58:00,150 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:58:00,411 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:23,918 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:24,372 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c64ac-4ccde2d056d3a5384feee290"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 12:59:24,622 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:24,878 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:25,123 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:31,639 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:31,940 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c64b3-1f92528083e1900c2d1fa8f8"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 12:59:32,247 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:32,489 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 12:59:32,734 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:00:55,614 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:00:55,966 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c6507-2aefbb5f47605358351db605"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 13:00:56,367 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:00:56,774 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:00:57,092 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:01:43,106 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:01:43,395 AssertUtil.py[line:47] INFO pass!!!  value2 in {"args": {"key": "value", "key2": "value2"}, "data": "", "files": {}, "form": {"key": "value", "key2": "value2"}, "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Content-Length": "21", "Content-Type": "application/x-www-form-urlencoded", "Host": "www.httpbin.org", "Key": "value", "Key2": "value2", "User-Agent": "python-requests/2.22.0", "X-Amzn-Trace-Id": "Root=1-5e6c6537-9d3265b66bc1229660db3f84"}, "json": null, "origin": "60.194.241.231", "url": "https://www.httpbin.org/post?key=value&key2=value2"} 
+2020-03-14 13:01:44,779 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:01:45,099 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200
+2020-03-14 13:01:45,383 AssertUtil.py[line:14] INFO pass!!!  code is 200, expected_code is 200

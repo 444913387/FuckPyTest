@@ -1,0 +1,94 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "testcase.TestHttpBin",
+    "children" : [ {
+      "name" : "httpbin_get",
+      "children" : [ {
+        "name" : "httpbin_get",
+        "uid" : "52ba2a6e7c727d49",
+        "parentUid" : "126a8f2bf99b40007caeaefcdf745644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584162101762,
+          "stop" : 1584162103108,
+          "duration" : 1346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'200'", "'status_code'", "'httpbin get'", "'httpbin_get'", "{'key': 'value', 'key2': 'value2'}", "{'key': 'value', 'key2': 'value2'}", "'get'", "{'key': 'value', 'key2': 'value2'}", "'https://www.httpbin.org/get'" ]
+      } ],
+      "uid" : "126a8f2bf99b40007caeaefcdf745644"
+    }, {
+      "name" : "httpbin_post",
+      "children" : [ {
+        "name" : "httpbin_post",
+        "uid" : "fc28e5e5f0a9436d",
+        "parentUid" : "c16e1389a6e2d0fcb602e82c3ab9b002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584162103118,
+          "stop" : 1584162103397,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'value2'", "'assert_in_body'", "'httpbin post'", "'httpbin_post'", "{'key': 'value', 'key2': 'value2'}", "{'key': 'value', 'key2': 'value2'}", "'post'", "{'key': 'value', 'key2': 'value2'}", "'https://www.httpbin.org/post'" ]
+      } ],
+      "uid" : "c16e1389a6e2d0fcb602e82c3ab9b002"
+    }, {
+      "name" : "httpbin_put",
+      "children" : [ {
+        "name" : "httpbin_put",
+        "uid" : "c2899cf8efae1347",
+        "parentUid" : "8f43e520b4fbc9fc0fdee21909af445a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584162103407,
+          "stop" : 1584162104780,
+          "duration" : 1373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'200'", "'status_code'", "'httpbin_put'", "'httpbin_put'", "{'key': 'value', 'key2': 'value2'}", "{'key': 'value', 'key2': 'value2'}", "'put'", "{'key': 'value', 'key2': 'value2'}", "'https://www.httpbin.org/put'" ]
+      } ],
+      "uid" : "8f43e520b4fbc9fc0fdee21909af445a"
+    }, {
+      "name" : "httpbin_patch",
+      "children" : [ {
+        "name" : "httpbin_patch",
+        "uid" : "2080786b3c0985cd",
+        "parentUid" : "e13142ad41081df36735e28e9594d56a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584162104790,
+          "stop" : 1584162105101,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'200'", "'status_code'", "'httpbin_patch'", "'httpbin_patch'", "{'key': 'value', 'key2': 'value2'}", "{'key': 'value', 'key2': 'value2'}", "'patch'", "{'key': 'value', 'key2': 'value2'}", "'https://www.httpbin.org/patch'" ]
+      } ],
+      "uid" : "e13142ad41081df36735e28e9594d56a"
+    }, {
+      "name" : "httpbin_delete",
+      "children" : [ {
+        "name" : "httpbin_delete",
+        "uid" : "dca99789ba422dc7",
+        "parentUid" : "bf6571d595e4a107cd54e8f4f0a04a75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584162105111,
+          "stop" : 1584162105384,
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'200'", "'status_code'", "'delete请求'", "'httpbin_delete'", "{'key': 'value', 'key2': 'value2'}", "{'key': 'value', 'key2': 'value2'}", "'delete'", "{'key': 'value', 'key2': 'value2'}", "'https://www.httpbin.org/delete'" ]
+      } ],
+      "uid" : "bf6571d595e4a107cd54e8f4f0a04a75"
+    } ],
+    "uid" : "ef719b985d34f85132c8e9962ea107ab"
+  } ]
+}

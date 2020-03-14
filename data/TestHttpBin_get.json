@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://www.httpbin.org/get",
+    "assert_text": "200",
+    "case_name": "httpbin_get",
+    "case_desc": "httpbin get",
+    "headers": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "params": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "data": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "method": "get",
+    "assert_type": "status_code"
+  },
+  {
+    "url": "https://www.httpbin.org/post",
+    "assert_text": "value2",
+    "case_name": "httpbin_post",
+    "case_desc": "httpbin post",
+    "headers": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "params": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "data": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "method": "post",
+    "assert_type": "assert_in_body"
+  },
+  {
+    "url": "https://www.httpbin.org/put",
+    "assert_text": "200",
+    "case_name": "httpbin_put",
+    "case_desc": "httpbin_put",
+    "headers": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "params": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "data": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "method": "put",
+    "assert_type": "status_code"
+  },
+  {
+    "url": "https://www.httpbin.org/patch",
+    "assert_text": "200",
+    "case_name": "httpbin_patch",
+    "case_desc": "httpbin_patch",
+    "headers": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "params": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "data": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "method": "patch",
+    "assert_type": "status_code"
+  },
+  {
+    "url": "https://www.httpbin.org/delete",
+    "assert_text": "200",
+    "case_name": "httpbin_delete",
+    "case_desc": "delete请求",
+    "headers": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "params": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "data": {
+      "key": "value",
+      "key2": "value2"
+    },
+    "method": "delete",
+    "assert_type": "status_code"
+  }
+]

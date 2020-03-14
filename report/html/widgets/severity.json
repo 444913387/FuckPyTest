@@ -1,0 +1,51 @@
+[ {
+  "uid" : "52ba2a6e7c727d49",
+  "name" : "httpbin_get",
+  "time" : {
+    "start" : 1584162101762,
+    "stop" : 1584162103108,
+    "duration" : 1346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2080786b3c0985cd",
+  "name" : "httpbin_patch",
+  "time" : {
+    "start" : 1584162104790,
+    "stop" : 1584162105101,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2899cf8efae1347",
+  "name" : "httpbin_put",
+  "time" : {
+    "start" : 1584162103407,
+    "stop" : 1584162104780,
+    "duration" : 1373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc28e5e5f0a9436d",
+  "name" : "httpbin_post",
+  "time" : {
+    "start" : 1584162103118,
+    "stop" : 1584162103397,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dca99789ba422dc7",
+  "name" : "httpbin_delete",
+  "time" : {
+    "start" : 1584162105111,
+    "stop" : 1584162105384,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

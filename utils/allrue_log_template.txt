@@ -1,0 +1,21 @@
+<div class="environment long-line">
+            <span class="environment__key">请求(curl)</span>:
+            <br/>
+                <span>{}</span>
+        </div>
+        <div class="environment long-line">
+            <span class="environment__key">响应</span>:
+            <br/>
+                <span>{}</span>
+        </div>
+        <div class="environment long-line">
+            <span class="environment__key">状态码</span>:<br/>
+                <span>{}</span>
+        </div>
+        <div class="environment long-line">
+            <span class="environment__key">断言类型</span>:<br/>
+                <span>{}</span>
+        </div>
+        <div class="environment long-line">
+            <span class="environment__key">预期结果</span>:<br/>
+                <span>{}</span></div>

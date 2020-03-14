@@ -1,0 +1,10 @@
+{
+  "smtp_server": "smtp.qq.com",
+  "sender": "444913387@qq.com",
+  "password": "uuncxmpfusykbjgb",
+  "user": "444913387@qq.com",
+  "receivers": [
+    "wangjianyu196@sina.com",
+    "444913387@qq.com"
+  ]
+}
